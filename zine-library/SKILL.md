@@ -15,7 +15,7 @@ description: Browse and select styles from a growing ZINE skill library, then lo
 4. 用户仅要求浏览目录时展示风格表、样板和调用示例，不自动出图。用户未指定风格但要求使用 ZINE 时，只有一个条目可说明默认选择；多个条目时根据意图推荐或提出一个简短选择问题。
 5. 使用具体风格时遵循该子 Skill 的输入、参数与输出规则；总入口不覆盖其约束。
 
-可接受 `style=ZINE-001`、`style=layered-zine-poster` 或中文名称。没有对应编号时列出有效选项，不静默换成别的风格。子 Skill 随本文件一起安装时可按相对路径加载，不依赖宿主递归自动发现；需要直接 `$子skill名` 调用时按 README 单独安装该子目录。
+可接受 `style=ZINE-001`、`style=layered-zine-poster` 或中文名称（如「原影·纸译」）。没有对应编号时列出有效选项，不静默换成别的风格。子 Skill 随本文件一起安装时可按相对路径加载，不依赖宿主递归自动发现；需要直接 `$子skill名` 调用时按 README 单独安装该子目录。
 
 ## 收录新风格
 

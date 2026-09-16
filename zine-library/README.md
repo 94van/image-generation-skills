@@ -6,13 +6,15 @@
 
 | 编号 | 风格 / 小 Skill | 构图与视觉特征 | 适配题材 | 样板 | 调用 |
 | --- | --- | --- | --- | --- | --- |
-| ZINE-001 | [上下分层对照](styles/layered-zine-poster/README.md) | 上层保真，下层纸本抽象；>65% 留白、单一亮色块、诗性小字 | 人物、景物、建筑、环境、物品 | [查看器物样板](styles/layered-zine-poster/examples/README.md) | `style=ZINE-001` / `$layered-zine-poster` |
+| ZINE-001 | [原影·纸译](styles/layered-zine-poster/README.md) | 上层保真，下层纸本抽象；>65% 留白、单一亮色块、诗性小字 | 人物、景物、建筑、环境、物品 | [查看器物样板](styles/layered-zine-poster/examples/README.md) | `style=ZINE-001` / `$layered-zine-poster` |
 
 目前已收录 **1** 种风格。后续按 ZINE-002、ZINE-003…递增；编号保留，不因排序变化重编号。这里只列已完成条目，不把未创建的风格当作可用项。
 
 ## 样板画廊
 
-### ZINE-001 · 上下分层对照
+### ZINE-001 · 原影·纸译
+
+**上层保真，下层纸本转译的对照式 ZINE。**「原影」保留参考图的主体与氛围；「纸译」将同一主体转成留白充足的纸本艺术。辨识特征是上下对照、下层超过 65% 留白、单一亮色几何色块与细腻印刷颗粒；人物下层弱化五官，保留妆造、服饰、姿态和气质。
 
 <img src="styles/layered-zine-poster/examples/ceramic-vase.png" width="360" alt="ZINE-001 器物风格样板：上层陶瓷瓶照片感，下层象牙白留白与朱红圆形" />
 

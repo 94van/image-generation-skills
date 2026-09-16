@@ -1,4 +1,4 @@
-# ZINE-001 · 器物样板
+# ZINE-001 · 原影·纸译 · 器物样板
 
 ![上下分层对照式陶瓷瓶 ZINE 样板](ceramic-vase.png)
 

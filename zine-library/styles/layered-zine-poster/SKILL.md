@@ -1,9 +1,11 @@
 ---
 name: layered-zine-poster
-description: Turn reference images into vertically split fine-art ZINE poster prompts or images, with a faithful upper panel and a minimal paper/silkscreen interpretation below. Use for 上下分层对照式 ZINE 海报、原图与艺术转译对照、留白纸本海报 with people, landscapes, architecture, environments, objects, or mixed subjects.
+description: Turn reference images into vertically split fine-art ZINE poster prompts or images, with a faithful upper panel and a minimal paper/silkscreen interpretation below. Use for 原影·纸译、上下分层对照式 ZINE 海报、原图与艺术转译对照、留白纸本海报 with people, landscapes, architecture, environments, objects, or mixed subjects.
 ---
 
-# 上下分层对照式 ZINE 海报
+# 原影·纸译｜上下对照 ZINE
+
+展示名称为「原影·纸译」，副标题为「上层保真，下层纸本转译的对照式 ZINE」。风格编号 ZINE-001，调用标识仍为 `layered-zine-poster`。
 
 把同一主体组织为「上层原图保真、下层纸本艺术转译」的独立海报。默认输出可复制提示词；用户明确要求出图时，使用当前可用的图像编辑/生成工具并实际传入参考图。没有工具则交付提示词并说明未生成图片。不要把写提示词误当作已出图。
 

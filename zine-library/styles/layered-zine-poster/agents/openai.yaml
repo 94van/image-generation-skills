@@ -1,4 +1,4 @@
 interface:
-  display_name: "上下对照 ZINE 海报"
-  short_description: "将任意垫图转为上层保真、下层留白纸本艺术转译的高级 ZINE 海报"
+  display_name: "原影·纸译｜上下对照 ZINE"
+  short_description: "上层保留原图，下层以大留白、亮色色块与丝网印刷质感转译同一主体"
   default_prompt: "使用 $layered-zine-poster，基于我提供的参考图生成上下分层对照式 ZINE 海报提示词。"
