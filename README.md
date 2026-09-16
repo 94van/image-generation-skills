@@ -7,12 +7,14 @@
 | 系列 | 内容 | 入口 |
 | --- | --- | --- |
 | ZINE 风格库 | 风格目录、样板画廊、独立风格 Skill；目前收录 ZINE-001「原影·纸译」：上层保真、下层纸本转译 | [浏览目录与样板](zine-library/README.md) |
+| 灵动造物 · 极简 IP 动画工坊 | 原创造型、明确分层、眨眼点头与结构适配移动；附真实 GIF 演示和脚本 | [查看 Skill 与动态样板](94van-ip-gif-studio/README.md) |
 
 ## 目录结构
 
 ```text
 image-generation-skills/
 ├── README.md
+├── 94van-ip-gif-studio/           # 灵动造物：极简 IP 动画
 └── zine-library/
     ├── README.md                  # ZINE 总目录与样板画廊
     ├── SKILL.md                   # 系列路由入口

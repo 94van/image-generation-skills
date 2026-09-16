@@ -1,0 +1,20 @@
+[
+  {
+    "file": "demo.gif",
+    "size": [
+      512,
+      512
+    ],
+    "frames": 400,
+    "unique_frames": 399,
+    "duration_ms_values": [
+      20
+    ],
+    "total_ms": 8000,
+    "average_fps": 50.0,
+    "loop": 0,
+    "seam_mean_absolute_rgb_difference": 3.010186513264974,
+    "bytes": 3554322,
+    "sha256": "ff6cae298e8d15a844bdc09003094ef0d4a56df8a2f48c2278a85e9e895ae883"
+  }
+]

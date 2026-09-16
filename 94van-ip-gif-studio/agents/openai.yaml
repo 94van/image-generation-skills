@@ -1,0 +1,4 @@
+interface:
+  display_name: "灵动造物｜极简 IP 动画工坊"
+  short_description: "将极简角色设计与分层动画串联，制作自然眨眼、点头及结构适配移动的真实 GIF"
+  default_prompt: "使用 $94van-ip-gif-studio，将我的极简角色制作成自然眨眼、轻点头且不挥手的循环 GIF。"
