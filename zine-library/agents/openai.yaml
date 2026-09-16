@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZINE 风格总目录"
+  short_description: "浏览 ZINE 风格样板，按编号调用独立小 Skill，并持续收录新风格"
+  default_prompt: "使用 $zine-library，展示风格总目录和样板，再按我选择的编号调用对应风格。"
