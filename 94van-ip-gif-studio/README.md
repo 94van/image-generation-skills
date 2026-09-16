@@ -2,13 +2,13 @@
 
 从有辨识度的极简角色，到眨眼、点头和按身体结构移动的真实 GIF。独立于 ZINE 系列；适合机器人标志、品牌吉祥物、头像动效与循环贴图。
 
-调用名：`94van-ip-gif-studio`。源自用户提供的《PlayForge：从极简 IP 标志到 50fps GIF 的完整教程》。默认 PlayForge 品牌可以替换，默认 512px、400 帧、20ms/帧、8 秒，无限循环。
+调用名：`94van-ip-gif-studio`。默认 PlayForge 品牌可以替换，默认 512px、400 帧、20ms/帧、8 秒，无限循环。
 
 ## 样板
 
-![原创几何机器人管线演示](examples/demo.gif)
+![几何机器人动画样板](examples/demo.gif)
 
-此图为随附脚本生成的几何机器人演示，不是历史十款成品或图像模型新设计的高档 IP。[演示说明与实测报告](examples/README.md)
+几何机器人通过眨眼、轻点头与弹跳展现动态表情，搭配固定环形文字。[查看样板规格与校验报告](examples/README.md)
 
 ## 安装
 
@@ -48,9 +48,9 @@ python3 -m venv .venv
 ## 文件与边界
 
 - [SKILL.md](SKILL.md)：输入参数、工作流、输出与验收。
-- [母提示词](references/master-prompt.md)、[原教程与来源说明](references/tutorial.md)、[rig 配置](references/rig.md)。
+- [母提示词](references/master-prompt.md)、[动画制作指南](references/tutorial.md)、[rig 配置](references/rig.md)。
 - [make_demo.py](scripts/make_demo.py)：原创几何测试图层。
 - [render_gif.py](scripts/render_gif.py)：明确图层的二维动画渲染。
 - [validate_gif.py](scripts/validate_gif.py)：逐帧解码与规格验证。
 
-脚本不自动抠图，不恢复三维骨骼，不生成十种风格，也未实现足底锁定。walk/crawl 是基础摆角演示；高质量步态需额外修正。实际播放速度受设备影响；GIF 帧延时以 10ms 为单位。历史十款文件未附入本仓库，其教程记载未独立复核。
+渲染器接收预先准备的二维图层，提供表情、弹跳与基础关节摆动。稳定步行需进一步配置接地轨迹与足底锁定。GIF 帧延时以 10ms 为单位，实际播放速度受设备和播放器影响。

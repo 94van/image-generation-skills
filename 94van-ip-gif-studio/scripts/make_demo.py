@@ -1,4 +1,4 @@
-"""Create a small original geometric rig for a smoke test, not historical artwork."""
+"""Create a geometric robot rig for the animation example."""
 import json,sys,math
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont

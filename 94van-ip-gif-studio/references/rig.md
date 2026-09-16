@@ -16,9 +16,9 @@
 
 head、eyes、feet、overlay 可省略；省略的层不应出现对应动作。head_pivot 为局部头部旋转中心。eyes 可以每只眼一个层，也可同高双眼共用一个层；center 是闭眼垂直压缩的中心。feet 项为 `{ "path":"left.png", "pivot":[225,340], "phase":0 }`，phase 单位弧度。两脚通常相差 π，多足按支撑序列设置。
 
-mode 为 expression/hop/walk/crawl，cycles 必须正整数以便首尾循环。overlay 层固定在画框内，用于环绕打字机字体。camera 为二维整体推近再回到起点，不是三维镜头。
+mode 为 expression/hop/walk/crawl，cycles 必须正整数以便首尾循环。overlay 层固定在画框内，用于环绕打字机字体。camera 控制二维整体推近并回到起点。
 
 渲染器接收 10ms 整数倍帧延时，默认 20ms=50fps。内存随尺寸和帧数增长；512×512×400 的 RGB 原始帧约 300MiB。不要直接用超大尺寸长片段；分段或流式实现需单独开发。基础脚摆角不等于足底锁定，专业行走必须按接地窗口校正脚世界位置。
 
 
-仓库渲染器要求 walk 至少两只独立脚层，crawl 至少三只；单支撑使用 hop。没有 head 时不旋转眼睛来冒充局部点头。
+仓库渲染器要求 walk 至少两只独立脚层，crawl 至少三只；单支撑使用 hop。局部点头需配置独立 head，眼层随头层同步运动。
