@@ -1,0 +1,13 @@
+interface:
+  display_name: "94van Malfoid Studio"
+  short_description: "全域组合式生图提示词：24 类题材，内置中文、English、日本語、한국어"
+  default_prompt: "使用 $94van-malfoid-studio，围绕我的主题组合四种风格的完整生图提示词，搭配不同场景、媒介、镜头、光线与配色。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  products:
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  allow_implicit_invocation: true
