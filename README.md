@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | ZINE 风格库 | 风格目录、样板画廊、独立风格 Skill；目前收录 ZINE-001「原影·纸译」：上层保真、下层纸本转译 | [浏览目录与样板](zine-library/README.md) |
 | 灵动造物 · 极简 IP 动画工坊 | 原创造型、明确分层、眨眼点头与结构适配移动；附真实 GIF 演示和脚本 | [查看 Skill 与动态样板](94van-ip-gif-studio/README.md) |
-| 94van Malfoid Studio | Malfoid 角色创作、37 组历史提示词、17 个领域模块与新设计扩展 | [查看 Skill 与原文库](94van-malfoid-studio/README.md) |
+| 94van Malfoid Studio | 全域组合式生图提示词、24 类题材、中英日韩四语与四种风格样图 | [查看 Skill 与样图](94van-malfoid-studio/README.md) |
 
 ## 目录结构
 
@@ -16,7 +16,7 @@
 image-generation-skills/
 ├── README.md
 ├── 94van-ip-gif-studio/           # 灵动造物：极简 IP 动画
-├── 94van-malfoid-studio/          # Malfoid 角色创作与历史提示词
+├── 94van-malfoid-studio/          # 四语组合式生图提示词与样图
 └── zine-library/
     ├── README.md                  # ZINE 总目录与样板画廊
     ├── SKILL.md                   # 系列路由入口
@@ -59,7 +59,7 @@ cp -R 94van-malfoid-studio ~/.codex/skills/
 ```
 
 ```text
-使用 $94van-malfoid-studio，沿用成年 Malfoid 的指定历史分支，为雨夜站台场景编写提示词，保留 @PLAyfORGE 签名。
+使用 $94van-malfoid-studio，为成年 Malfoid 编写雨夜动画提示词，保留 @PLAyfORGE 签名，language=zh。
 ```
 
 ## 后续收录
