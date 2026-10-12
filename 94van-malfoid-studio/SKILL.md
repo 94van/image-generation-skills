@@ -1,43 +1,43 @@
 ---
 name: 94van-malfoid-studio
-description: 汇编可检索 Malfoid 历史生图提示词并用于角色一致性、性转成年角色、单人/双人/多人构图、参考图分工、画风与姿势迁移、场景与服装变体、比例与批量输出及签名校验。用于 Malfoid、Malfoid 提示词、沿用历史设定、全领域变体或重现既有系列；区分历史原文、归纳规则与新设计扩展，不用于冒充完整历史检索或在缺少原图时声称精确复现。
+description: Compose ready-to-use text-to-image prompts in Chinese, English, Japanese, or Korean by combining subject, scene, action, medium, camera, lighting, palette, and layout. Use for broad visual ideation, Malfoid character art, portraits, products, architecture, nature, fashion, fantasy, posters, and storyboards.
 ---
 
 # 94van Malfoid Studio
 
-将历史依据转化为可复用的创作约束；保持角色、参考图和用户最新要求的一致性。
+中文 · English · 日本語 · 한국어
 
-## 先定任务和依据
+## Choose the language
 
-1. 区分「仅写提示词」「实际生图」「编辑现有图」「整理历史」「新增系列」。用户只要求提示词或整理时，不启动生图、上传、公开分享或其他外部操作。
-2. 查阅 references/source-index.md，按域读取原文和模块。历史语句只在其适用任务、角色与图像上下文内成立，不把单次选择升级为永久设定。
-3. 按优先级处理冲突：当前用户明确要求 → 当前指定参考图在其分工内的视觉证据 → 已确认的同角色历史设定 → 历史同系列模式 → 明确标注的新设计假设。涉及安全与权限时，遵循当前系统规则；本 skill 不提供未来任务授权。
-4. 把事实标成三类：历史原文、由历史归纳、设计扩展。声称「历史里有」时，能回指原文 ID；不能把助手补写当用户原话。
-5. 遇到缺少的关键角色参考图，直说缺图，询问补图或提供带占位符的文本草案。不可假装看见附件，不可用想象补完 Malfoid 的脸、瞳色、发型、种族或永久服装。无需精确复现时，可按用户授权创作新版本并说明是新设计。
+Use the explicitly requested language first; otherwise match the user's message. Accept `language=zh`, `zh-CN`, `en`, `ja`, or `ko`. Produce all four versions when requested. Preserve `Malfoid`, `@PLAyfORGE`, filenames, example IDs, `ar`, and `n` exactly across languages.
 
-## 组装工作流
+Read the selected language guide for the workflow, 24 domain templates, composition recipe, and four complete examples:
 
-- 建立角色清单：每人名称、年龄语境、性别/性转、身份来源、身体特征、服装、道具、动作、画面位置；尾巴、耳朵、手持物逐项归属。
-- 分开年龄分支：普通儿童/青少年肖像只保留适龄非性表达；成熟性感、魅惑造型或成人关系情境须明确成年，不将这些元素拼接到低龄版本。历史里出现「少女」「学员」不自动证明成年，成年性转分支与童年头像分支不得混为一套。
-- 建立参考图清单：每张图用于身份、服装、画风、姿势、构图、场景中的哪几项。只迁移指定维度，不让姿势图覆盖角色脸，不让画风图偷偷增加第二角色。
-- 明确主体数、交互关系、前中后景、遮挡顺序、视点、裁切、光源和景深。单双人分开计数；双人正常共有四只手，不能全局写「禁止四只手」。按每个角色检查正常肢体数量与连接关系，尊重其明确的非人类设定。
-- 逐项落实纵横比、张数、独立图片或拼图、是否同角色连续变化。保留用户精确指定值，不将 n 张擅自合成一张联系表。工具不支持时披露可实现范围，不伪称精确执行。
-- 按相关模块写提示词。保留必要的原始中英文关键词；语言以当前用户要求为准，不强制额外双语输出。
-- 当任务要求沿用主流迁移/海报签名时，逐字符使用 @PLAyfORGE，保持大小写；历史素描本分支原文是 @94vanai，精确复现时保留，当前要求可覆盖；其位置、大小、材质服从当前指定，不将签名错误地当人物纹身或画面主体。用户明确不要签名时遵从。文字生成有误时按当前工具能力修订，不声称已读到正确文字。
-- 执行生成或编辑时，使用当前可用图像工具与其技能规定；只在用户要求该动作时执行。创建本 skill 不授权生图、上传 Google Drive、公开分享或长期监控。
+| Language | Built-in guide |
+| --- | --- |
+| 中文 | [中文创作指南](references/languages/zh-CN.md) |
+| English | [English creation guide](references/languages/en.md) |
+| 日本語 | [日本語制作ガイド](references/languages/ja.md) |
+| 한국어 | [한국어 제작 가이드](references/languages/ko.md) |
 
-## 交付和检查
+## Compose the prompt
 
-仅提示词：给出完整可直接用的正文和必要的参考图绑定说明；有缺图或未定身份时说明影响，勿把占位符包装为精确复现。
+1. Produce complete text-to-image prompts by default. Generate images when the user asks for images. Infer workable visual choices from a short theme so the user can start with one sentence.
+2. Use the subject specified in the user's text. For a character request without another character specification, use Malfoid: a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, black hoop earrings, and a charcoal high-collar cape over emerald clothing. For product, architecture, nature, or vehicle requests, focus on the requested subject.
+3. Choose one primary domain and one dominant visual medium. Combine subject + setting + action or arrangement + viewpoint + lighting + palette + mood + composition. Read the matching domain recipe and the component bank when useful. Create an appropriate combination for subjects beyond the listed domains as well.
+4. Turn the selected ingredients into coherent visual prose. Specify concrete positions, material surfaces, focal hierarchy, and spatial relationships. Expand every placeholder. Resolve competing media, light directions, and camera positions into one intentional scene. User-specified details take priority over defaults.
+5. Keep the subject's defining features fixed across a series. Within one medium, vary one or two dimensions per prompt. For a combination of styles, choose a distinct primary medium for each prompt and coordinate its setting, lighting, and palette. Make each prompt self-contained. For multiple characters, name each person's position, action, and prop ownership explicitly.
+6. Apply the requested language, aspect ratio, count, and lettering. Defaults: `ar=2:3`, `n=1`, one discreet `@PLAyfORGE` signature at the bottom right. User-supplied `n` counts the total standalone images across all concepts unless explicitly stated per concept. For three concepts and `n=3`, allocate one image to each and show `n=1` on each prompt. Panel counts describe the layout within one image. Translations do not increase image count. A completely text-free request also omits the signature.
 
-实际生图：先核对生成结果，能看图才声称完成视觉校验。逐人核查脸与服装一致性、肢体连接、道具归属和尾巴归属；再检查人数、构图、比例、数量及签名。失败项修复或披露，不用一组泛化负面词代替检查。
+## Deliver
 
-整理历史：保留原文、来源与上下文，去重但不合并有意义的差异；只陈述已实际检索到的范围。丢失的参考图与无法访问的对话不得冒称已恢复。
+For each variation, provide a short style title, one complete copy-ready prompt, and its parameters. Match the user's requested output format. When all four languages are requested, preserve identical visual content and parameters across translations.
 
-## 资源导航
+For image requests, use the available image-generation tool, create the requested standalone images, and inspect subject features, anatomy where applicable, materials, layout, count, and lettering before presenting the results.
 
-- references/source-index.md：覆盖范围、来源索引、缺失参考图和使用界限；每次历史复现先读。
-- references/history-prompts.md：去重原始提示词与来源；需要原话、追溯、精确沿用时读。
-- references/history-prompts.json：同一用户原文的结构化副本，用 id/module 检索，避免加载整份长文本。
-- references/historical-modules.md：有历史依据的领域模式；按任务选择。
-- references/designed-extensions.md：可选的新设计模块与组合模板；仅作为扩展，不能宣称是历史。
+## Resources
+
+- [Composition components](references/composition.md): visual media, settings, actions, cameras, lighting, palettes, moods, and layouts.
+- [Domain recipes](references/prompt-library.md) · [JSON](references/prompt-library.json): 24 combinable templates and complete examples, searchable by domain `id`. Express their visual ingredients in the selected output language.
+- [Example gallery](examples/README.md): four finished illustrations and their prompt links.
+- [Example prompts](examples/prompts.json): four standalone style recipes with image paths.

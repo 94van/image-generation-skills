@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "language": "en",
+  "examples": [
+    {
+      "id": "anime-rain",
+      "title": "Rain at the Platform",
+      "prompt": "A cinematic Japanese anime illustration, portrait 2:3, one standalone image. Malfoid is a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, and black hoop earrings, wearing a charcoal high-collar cape over modest emerald layered clothing. She stands on an old railway platform on a rainy night, framed from the waist up in a three-quarter view from a slightly low viewpoint, just left of center, with a clearly readable face. One gloved hand rests lightly at her cape clasp. Her expression is composed, with the faintest suggestion of a smile. Raindrops cling to her hair tips and cape. Distant tracks and puddles reflect teal platform lights and subdued red neon, with softly blurred signs behind her. Delicate continuous linework, hard-edged two-tone cel shadows, grouped flat-color hair shapes, gentle bloom, and cinematic depth of field; render the face with clean anime color shapes. Place the exact signature @PLAyfORGE once, small, discreet, and legible, at the bottom right. No other lettering.",
+      "parameters": {
+        "ar": "2:3",
+        "n": 1
+      },
+      "file": "images/anime-rain.png"
+    },
+    {
+      "id": "watercolor-garden",
+      "title": "Conservatory Light",
+      "prompt": "A character illustration in watercolor and gouache inside a botanical conservatory, portrait 2:3, one standalone image. Malfoid is a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, and black hoop earrings, wearing a charcoal high-collar cape over modest emerald layered clothing. Frame her seated from the waist up among ferns and white camellias beneath a glass dome. She turns her head gently toward the viewer, one hand lightly holding a single white camellia stem, her expression quiet and attentive. Pale morning sunlight filters through glass and leaves, casting soft patches of light across her cape. Ivory, sage, mint, and pale gold washes blend around her. Use cold-pressed paper grain, transparent wet-on-wet washes, selective opaque gouache highlights, and flowing broad strokes. Keep her face and hands clearly rendered, with airy space at the composition's edges. Place the exact signature @PLAyfORGE once, small, discreet, and legible, at the bottom right. No other lettering.",
+      "parameters": {
+        "ar": "2:3",
+        "n": 1
+      },
+      "file": "images/watercolor-garden.png"
+    },
+    {
+      "id": "gothic-print",
+      "title": "The Moonlit Gate",
+      "prompt": "A retro gothic character poster in carved linocut and screenprint, portrait 2:3, one standalone image. Malfoid is a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, and black hoop earrings, wearing a charcoal high-collar cape over modest emerald layered clothing. Show her full standing figure before pointed-arch wrought-iron gates under moonlight, her body angled slightly away and her face turned toward the viewer with calm resolve. One hand rests on the iron gate, and her cape spreads into a sweeping triangular silhouette. Iron scrollwork, climbing roses, and a pale full moon create a clear, symmetrical frame. Limit the inks to ivory, charcoal, and muted emerald. Use expressive carved contours, flat shadows, broad color shapes, fine halftone dots, and subtle ink misregistration while preserving a distinct face and elegant silhouette. Leave a little negative space near the bottom. Place the exact signature @PLAyfORGE once, discreet and legible, at the bottom right. No other lettering.",
+      "parameters": {
+        "ar": "2:3",
+        "n": 1
+      },
+      "file": "images/gothic-print.png"
+    },
+    {
+      "id": "celestial-poster",
+      "title": "Observer of the Stars",
+      "prompt": "A refined celestial fantasy editorial poster, portrait 2:3, one standalone image. Malfoid is a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, and black hoop earrings, wearing a charcoal high-collar cape over modest emerald layered clothing. She stands in a star-filled observatory beneath an open dome. Use a three-quarter-length view from a slight low angle as she makes an elegant turn toward the viewer beside huge bronze astrolabe rings, her arms naturally relaxed. Her long hair and cape drift along a diagonal. The monumental astrolabe rings and deep indigo night sky establish the background. Magical emerald constellation trails curl around her, while platinum rim light and restrained antique-gold light shape the figure. Build the main palette from platinum, antique gold, and indigo. Combine detailed digital painting with restrained editorial spacing: the face is the sharpest focal point, the effects have clear depth, and an uncluttered area near the top remains free of titles. Place the exact signature @PLAyfORGE once, small, discreet, and legible, at the bottom right.",
+      "parameters": {
+        "ar": "2:3",
+        "n": 1
+      },
+      "file": "images/celestial-poster.png"
+    }
+  ]
+}
