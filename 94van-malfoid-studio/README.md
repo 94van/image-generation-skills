@@ -4,7 +4,7 @@
 
 全域组合式生图提示词工作室：内置中英日韩四语、24 类题材配方、可自由搭配的画面组件，以及四种风格的成图示例。通过文字组合主体、场景、动作、媒介、镜头、光线、配色与构图。
 
-A multilingual text-to-image prompt studio with 24 domain recipes, combinable visual components, and four illustrated examples. Compose subjects, scenes, actions, media, cameras, lighting, palettes, and layouts in Chinese, English, Japanese, or Korean.
+A multilingual text-to-image prompt studio with 24 domain recipes, combinable visual components, and four visual examples. Compose subjects, scenes, actions, media, cameras, lighting, palettes, and layouts in Chinese, English, Japanese, or Korean.
 
 24分野のレシピ、自由に組み合わせられる画面要素、4種類の作例を備えた画像生成プロンプトスタジオ。中国語・英語・日本語・韓国語で、被写体、場面、動作、画材、カメラ、光、配色、構図を組み立てます。
 
@@ -12,11 +12,13 @@ A multilingual text-to-image prompt studio with 24 domain recipes, combinable vi
 
 ## 样图 · Gallery · 作例 · 갤러리
 
-| 雨夜动画 · Anime | 水彩花园 · Watercolor |
-| --- | --- |
-| ![Anime rain](examples/images/anime-rain.png) | ![Watercolor garden](examples/images/watercolor-garden.png) |
-| 哥特版画 · Gothic print | 星空海报 · Celestial poster |
-| ![Gothic print](examples/images/gothic-print.png) | ![Celestial poster](examples/images/celestial-poster.png) |
+**暗夜电竞房 · Midnight Gaming Room**
+
+![Midnight gaming room](examples/images/midnight-gaming-room.png)
+
+| 薄荷魔法海报 · Aqua Magic | 冷光表情特写 · Emerald Close-up | 真人手绘本 · Cosplay & Sketchbook |
+| --- | --- | --- |
+| ![Aqua magic poster](examples/images/aqua-magic-poster.png) | ![Emerald close-up](examples/images/emerald-closeup.png) | ![Cosplay and sketchbook](examples/images/cosplay-sketchbook.png) |
 
 [查看大图与提示词 · Images & prompts · 画像とプロンプト · 이미지와 프롬프트](examples/README.md)
 
@@ -26,10 +28,10 @@ A multilingual text-to-image prompt studio with 24 domain recipes, combinable vi
 
 | Language | Guide | Example invocation |
 | --- | --- | --- |
-| 中文 | [中文创作指南](references/languages/zh-CN.md) | 使用 $94van-malfoid-studio，为 Malfoid 生成雨夜动画提示词，language=zh。 |
-| English | [English guide](references/languages/en.md) | Use $94van-malfoid-studio to create a watercolor portrait prompt for Malfoid, language=en. |
-| 日本語 | [日本語ガイド](references/languages/ja.md) | $94van-malfoid-studio で、Malfoid のゴシック版画風プロンプトを作成してください。language=ja。 |
-| 한국어 | [한국어 가이드](references/languages/ko.md) | $94van-malfoid-studio로 Malfoid의 별빛 판타지 포스터 프롬프트를 작성해 주세요. language=ko. |
+| 中文 | [中文创作指南](references/languages/zh-CN.md) | 使用 $94van-malfoid-studio，为 Malfoid 生成暗夜电竞房提示词，language=zh。 |
+| English | [English guide](references/languages/en.md) | Use $94van-malfoid-studio to create an aqua magic poster prompt for Malfoid, language=en. |
+| 日本語 | [日本語ガイド](references/languages/ja.md) | $94van-malfoid-studio で、Malfoid の冷たい光のアニメ顔アップのプロンプトを作成してください。language=ja。 |
+| 한국어 | [한국어 가이드](references/languages/ko.md) | $94van-malfoid-studio로 Malfoid의 코스프레와 스케치북 사진 프롬프트를 작성해 주세요. language=ko. |
 
 ## 组合方式 · Compose
 
@@ -60,10 +62,10 @@ cp -R image-generation-skills/94van-malfoid-studio ~/.codex/skills/
 ```
 
 ```text
-使用 $94van-malfoid-studio，生成成年 Malfoid 的四张独立竖版插画：
-雨夜动画、水彩花园、哥特版画、星空海报。
-保留铂金长发、碧绿眼睛、黑色环形耳环和 @PLAyfORGE 签名。
-ar=2:3，每种风格一张。提示词用中文、英文、日文、韩文各输出一版。
+使用 $94van-malfoid-studio，生成成年 Malfoid 的四张独立作品：
+暗夜电竞房（16:9）、薄荷魔法海报（4:7）、冷光表情特写（4:7）、真人手绘本（9:16）。
+保留铂金长发、碧绿眼睛与绿银配色；耳饰、衣装与署名按各示例设置。
+每种风格一张。提示词用中文、英文、日文、韩文各输出一版。
 ```
 
 ## 资源 · Resources

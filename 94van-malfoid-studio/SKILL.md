@@ -23,7 +23,7 @@ Read the selected language guide for the workflow, 24 domain templates, composit
 ## Compose the prompt
 
 1. Produce complete text-to-image prompts by default. Generate images when the user asks for images. Infer workable visual choices from a short theme so the user can start with one sentence.
-2. Use the subject specified in the user's text. For a character request without another character specification, use Malfoid: a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, black hoop earrings, and a charcoal high-collar cape over emerald clothing. For product, architecture, nature, or vehicle requests, focus on the requested subject.
+2. Use the subject specified in the user's text. For a character request without another character specification, use Malfoid: a 25-year-old adult woman with long platinum-blonde hair, emerald eyes, black hoop earrings, a white collared shirt, a green-and-silver striped tie, a charcoal knit vest, and a black robe with emerald lining. For product, architecture, nature, or vehicle requests, focus on the requested subject.
 3. Choose one primary domain and one dominant visual medium. Combine subject + setting + action or arrangement + viewpoint + lighting + palette + mood + composition. Read the matching domain recipe and the component bank when useful. Create an appropriate combination for subjects beyond the listed domains as well.
 4. Turn the selected ingredients into coherent visual prose. Specify concrete positions, material surfaces, focal hierarchy, and spatial relationships. Expand every placeholder. Resolve competing media, light directions, and camera positions into one intentional scene. User-specified details take priority over defaults.
 5. Keep the subject's defining features fixed across a series. Within one medium, vary one or two dimensions per prompt. For a combination of styles, choose a distinct primary medium for each prompt and coordinate its setting, lighting, and palette. Make each prompt self-contained. For multiple characters, name each person's position, action, and prop ownership explicitly.
@@ -39,5 +39,5 @@ For image requests, use the available image-generation tool, create the requeste
 
 - [Composition components](references/composition.md): visual media, settings, actions, cameras, lighting, palettes, moods, and layouts.
 - [Domain recipes](references/prompt-library.md) · [JSON](references/prompt-library.json): 24 combinable templates and complete examples, searchable by domain `id`. Express their visual ingredients in the selected output language.
-- [Example gallery](examples/README.md): four finished illustrations and their prompt links.
+- [Example gallery](examples/README.md): four finished visual examples and their prompt links.
 - [Example prompts](examples/prompts.json): four standalone style recipes with image paths.

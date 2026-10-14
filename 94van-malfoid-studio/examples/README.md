@@ -1,38 +1,50 @@
-# Malfoid · Four Styles
+# Malfoid · Gallery
 
-四张独立插画，共用铂金长发、碧绿眼眸、黑色环形耳环与黑绿服装，以不同媒介呈现人物。
+铂金长发、碧绿眼眸与绿银服饰，贯穿暗夜叙事、明亮魔法、细腻表情和真人摄影四种画面。
 
-Four standalone illustrations explore cel animation, watercolor, gothic print, and celestial fantasy painting. Each is a 1024 × 1536 PNG created with the built-in ImageGen tool.
+Platinum hair, emerald eyes, and green-and-silver clothing connect four scenes: a midnight gaming room, luminous magic, an intimate expression study, and a photographic cosplay portrait.
+
+プラチナブロンドの髪、エメラルドの瞳、緑と銀の衣装を軸に、深夜の部屋、明るい魔法、繊細な表情、コスプレ写真を展開します。
+
+백금발, 에메랄드빛 눈, 녹색과 은색 의상을 중심으로 심야의 방, 밝은 마법, 섬세한 표정, 코스프레 사진을 선보입니다.
 
 | 提示词语言 · Prompt language | 完整示例 · Complete examples |
 | --- | --- |
-| 中文 | [四种风格提示词](../references/languages/zh-CN.md) |
-| English | [Four style prompts](../references/languages/en.md) |
-| 日本語 | [4種類の作例プロンプト](../references/languages/ja.md) |
-| 한국어 | [4가지 스타일 프롬프트](../references/languages/ko.md) |
+| 中文 | [中文提示词](../references/languages/zh-CN.md#完整示例) |
+| English | [English prompts](../references/languages/en.md#complete-examples) |
+| 日本語 | [日本語プロンプト](../references/languages/ja.md) |
+| 한국어 | [한국어 프롬프트](../references/languages/ko.md) |
 
-[独立样图提示词 · Standalone example prompts](prompts.json)
+[English prompt JSON](prompts.json)
 
-## anime-rain · 雨夜动画 · 雨夜のアニメ · 빗밤 애니메이션
+## midnight-gaming-room · 暗夜电竞房 · 深夜のゲーミングルーム · 심야 게이밍 룸
 
-锐利线条、成组发束、赛璐璐阴影与青红霓虹，在雨夜车站交汇。
+俯视斜构图、回眸、挂颈耳机、蓝色键盘和屏幕冷光。收藏品、烛火与画中画组成高密度的黑绿空间，人物的眼睛和铂金发丝保持清晰。
 
-![Anime rain](images/anime-rain.png)
+High diagonal view, an upward glance, headphones, blue screen light, and a richly layered collector's room. **1672 × 941 PNG · 16:9**
 
-## watercolor-garden · 水彩花园 · 水彩の温室 · 수채화 온실
+![Midnight gaming room](images/midnight-gaming-room.png)
 
-象牙白纸感、湿画法与不透明水粉，配合晨光、山茶花与鼠尾草绿。
+## aqua-magic-poster · 薄荷魔法海报 · ミント色の魔法ポスター · 민트빛 마법 포스터
 
-![Watercolor garden](images/watercolor-garden.png)
+薄荷色留白、侧身回眸、飘动长发和绿衬长袍。透明水球、银色星芒与悬浮水滴围绕掌心，明亮高光与深色衣料形成鲜明层次。
 
-## gothic-print · 哥特版画 · ゴシック版画 · 고딕 판화
+Mint negative space, a confident over-the-shoulder pose, flowing hair, and a transparent aqua sphere with a silver star. **948 × 1659 PNG · 4:7**
 
-炭黑、象牙白与墨绿构成套色版画，月亮、铁门和蔷薇形成装饰框景。
+![Aqua magic poster](images/aqua-magic-poster.png)
 
-![Gothic print](images/gothic-print.png)
+## emerald-closeup · 冷光表情特写 · 冷たい光とエメラルドの瞳 · 차가운 빛과 에메랄드 눈
 
-## celestial-poster · 星空海报 · 星空ポスター · 별빛 포스터
+正面胸上特写、微蹙眉心与轻启嘴唇，以碧绿眼睛为视觉中心。左上冷光、干净赛璐璐阴影和蓝灰背景突出克制而敏感的表情。
 
-深靛蓝星空、古金色星盘与翡翠绿星轨，构成华丽的幻想画面。
+A centered anime close-up with luminous emerald irises, subtly tense brows, cool side light, and clean cel shadows. **948 × 1659 PNG · 4:7**
 
-![Celestial poster](images/celestial-poster.png)
+![Emerald close-up](images/emerald-closeup.png)
+
+## cosplay-sketchbook · 真人手绘本 · コスプレとスケッチブック · 코스프레와 스케치북
+
+真人摄影与纸上漫画同框：人物手持线圈画本，视线投向画外。铂金长发、绿银领带与炭灰针织背心连接两种表现方式，窗光、暖台灯和生活化陈设带来真实质感。
+
+A photographic cosplay portrait beside a hand-held manga sketchbook, with tangible paper, knit fabric, soft window light, and a warm desk lamp. **941 × 1672 PNG · 9:16**
+
+![Cosplay and sketchbook](images/cosplay-sketchbook.png)
