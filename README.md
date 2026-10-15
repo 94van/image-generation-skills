@@ -9,6 +9,7 @@
 | ZINE 风格库 | 风格目录、样板画廊、独立风格 Skill；目前收录 ZINE-001「原影·纸译」：上层保真、下层纸本转译 | [浏览目录与样板](zine-library/README.md) |
 | 灵动造物 · 极简 IP 动画工坊 | 原创造型、明确分层、眨眼点头与结构适配移动；附真实 GIF 演示和脚本 | [查看 Skill 与动态样板](94van-ip-gif-studio/README.md) |
 | 94van Malfoid Studio | 全域组合式生图提示词、24 类题材、中英日韩四语与四种风格样图 | [查看 Skill 与样图](94van-malfoid-studio/README.md) |
+| 94｜PLAyfORGE CHARACTER ESSENTIALS GENERATOR | 参照图拆解与角色自适配、四模式、全身单角色图鉴、批量单张、可提取暗水印 | [查看 Skill 与调用示例](playforge-character-essentials/README.md) |
 
 ## 目录结构
 
@@ -17,6 +18,7 @@ image-generation-skills/
 ├── README.md
 ├── 94van-ip-gif-studio/           # 灵动造物：极简 IP 动画
 ├── 94van-malfoid-studio/          # 四语组合式生图提示词与样图
+├── playforge-character-essentials/ # 双路径自适应角色衣橱图鉴
 └── zine-library/
     ├── README.md                  # ZINE 总目录与样板画廊
     ├── SKILL.md                   # 系列路由入口

@@ -1,0 +1,4 @@
+interface:
+  display_name: "94｜PLAyfORGE CHARACTER ESSENTIALS GENERATOR"
+  short_description: "参照图拆解与角色自适配，生成单角色全身衣橱与专属物品图鉴"
+  default_prompt: "使用 $playforge-character-essentials，按 AUTO 模式制作 4:7 角色衣橱图鉴，生成后嵌入作者标识为 @PLAyfORGE_ 的可追踪暗水印，画面不显示签名。"
